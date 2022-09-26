@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remote Development and Compilation", "Remote Development and Compilation\Remote Development and Compilation.csproj", "{69539886-429B-4F34-9942-450E0BF8933C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69539886-429B-4F34-9942-450E0BF8933C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69539886-429B-4F34-9942-450E0BF8933C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69539886-429B-4F34-9942-450E0BF8933C}.Debug|x86.ActiveCfg = Debug|x86
+		{69539886-429B-4F34-9942-450E0BF8933C}.Debug|x86.Build.0 = Debug|x86
+		{69539886-429B-4F34-9942-450E0BF8933C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69539886-429B-4F34-9942-450E0BF8933C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69539886-429B-4F34-9942-450E0BF8933C}.Release|x86.ActiveCfg = Release|x86
+		{69539886-429B-4F34-9942-450E0BF8933C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E786E66-8283-412D-9638-B1871524851E}
+	EndGlobalSection
+EndGlobal

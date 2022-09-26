@@ -1,0 +1,29 @@
+== Transparent remote development and compilation ==
+
+This thesis topic is proposed by Raincode, a leading company in compiler design and more generally, language processing infrastructures. They are headquartered in Brussels, Belgium (near the Brussels South station), and serve customers all over the world. Raincode Labs (raincodelabs.com) is the engineering arm of the company, providing compiler-related consulting and development services. Raincode Labs’ scope is not limited to compilation per se. It includes IDEs, migration, translation, interpretation, analysis and so on.
+
+The particular topic of this proposal is on Transparent remote development and compilation. (There are a few other thesis topics proposed by Raincode in this year's list of topics as well.)
+
+At Raincode we are, at times, faced with a client setup that is a mix between different computer environments, e.g. some servers with a Linux operating system, a mainframe, and a set of development workstations running Windows. A core axiom of our way of working is the concept of the single source: the same source file should compile without changes on the different environments. This means that development and maintenance of a (part of) an application always happens on the same sources, regardless of the target environment.
+
+An important challenge in these setups is enabling straightforward treatment of remote and local sources with regard to development and compilation. For a particular client we have already developed a one-off solution that helps in their context. For this client and other clients, simply obtaining all the files that are kept in version control (VC) or source code management (SCM) system (e.g. git clone) is not an option. This is because these repositories are huge so getting a complete copy locally on all places they are used is a significant and unnecessary waste of resources. 
+
+The topic of this master thesis is to develop a more generic solution, based on the idea of redirect files. The core idea of this solution is to, locally, have a tree of redirect files that matches the tree of source code files, which is kept remotely in a VC or SCM. A redirect file is a proxy: nothing more than a text file that specifies the location of the actual source code file. The compiler and the development environment will work with these redirect files as is they are the actual source code files themselves, as transparently as possible. The tree of redirect files is also kept in VC/SCM, obviously.
+
+More in detail, they work with redirect files in the following manner:
+* The compiler will fetch the appropriate sources from the VC/SCM as needed and compile locally.
+* The development environment can create files that are only local or also kept in the VC/SCM, the latter also amending the tree of redirect files.
+* The development environment will fetch the appropriate sources from the VC/SCM as needed and edit locally.
+* When saving, the user can choose between saving a local copy or uploading to the VC/SCM, the latter with conflict resolution if needed.
+* The compiler, when faced with a file that is local but also remote, needs to establish whether there is a conflict and also perform conflict resolution.
+
+CONFLICT RESOLUTION may be non-trivial in this setting, since it depends on what tool detects the conflict, as well as in which context it runs. For the development environment, conflict resolution may start with some default strategies but may also include interacting with the user. For the compiler however, conflict resolution needs to happen without user interaction when running standalone. But then again, when the compiler runs as part of a build within the development environment, all conflict resolution facilities of the development environment need to be used.
+
+Typical use cases for this setup are the following:
+* Development on workstations and a remote build farm building executables for the workstation
+* Development on workstations and testing and production on a mainframe
+* Applications with parts that are shared between different applications, on a mainframe VC/SCM and parts specific to that application that are contained in a separate VC/SCM.
+
+We expect the master student to design and develop this solution to work with one of our compilers, one specific VC/SCM (to be decided) and Visual Studio or Visual Studio Code (to be decided).
+
+This thesis topic will be mainly guided by Dr. Johan Fabry from Raincode and Prof. Kim Mens will act as UCL promoter. The topic is proposed for one or two students.
