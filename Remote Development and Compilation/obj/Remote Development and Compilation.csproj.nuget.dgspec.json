@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ishim\\source\\repos\\Remote Development and Compilation\\Remote Development and Compilation\\Remote Development and Compilation.csproj": {}
+    "\\\\Mac\\Home\\Documents\\Remote_Development_and_Compilation\\Remote Development and Compilation\\Remote Development and Compilation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ishim\\source\\repos\\Remote Development and Compilation\\Remote Development and Compilation\\Remote Development and Compilation.csproj": {
+    "\\\\Mac\\Home\\Documents\\Remote_Development_and_Compilation\\Remote Development and Compilation\\Remote Development and Compilation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ishim\\source\\repos\\Remote Development and Compilation\\Remote Development and Compilation\\Remote Development and Compilation.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Documents\\Remote_Development_and_Compilation\\Remote Development and Compilation\\Remote Development and Compilation.csproj",
         "projectName": "Remote Development and Compilation",
-        "projectPath": "C:\\Users\\ishim\\source\\repos\\Remote Development and Compilation\\Remote Development and Compilation\\Remote Development and Compilation.csproj",
-        "packagesPath": "C:\\Users\\ishim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ishim\\source\\repos\\Remote Development and Compilation\\Remote Development and Compilation\\obj\\",
+        "projectPath": "\\\\Mac\\Home\\Documents\\Remote_Development_and_Compilation\\Remote Development and Compilation\\Remote Development and Compilation.csproj",
+        "packagesPath": "C:\\Users\\jpishimwe\\.nuget\\packages\\",
+        "outputPath": "\\\\Mac\\Home\\Documents\\Remote_Development_and_Compilation\\Remote Development and Compilation\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ishim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jpishimwe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

@@ -25,6 +25,7 @@ namespace Remote_Development_and_Compilation
     /// </remarks>
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
     [Guid(Remote_Development_and_CompilationPackage.PackageGuidString)]
+    [ProvideMenuResource("Menus.ctmenu", 1)]
     public sealed class Remote_Development_and_CompilationPackage : AsyncPackage
     {
         /// <summary>
@@ -46,6 +47,7 @@ namespace Remote_Development_and_Compilation
             // When initialized asynchronously, the current thread may be a background thread at this point.
             // Do any initialization that requires the UI thread after switching to the UI thread.
             await this.JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);
+            await CommandLoadFile.InitializeAsync(this);
         }
 
         #endregion

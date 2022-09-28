@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Diagnostics;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,9 +10,9 @@ namespace Remote_Development_and_Compilation
 {
     internal class FileSync
     {
-        public static void Main()
+        public static string OpenFile()
         {
-            string path = @"C:\Users\ishim\source\repos\Remote Development and Compilation\Test Files\TFE23-254-Raincode_DistributedDev.txt";
+            string path = @"Z:\Documents\Remote_Development_and_Compilation\Test Files\TFE23-254-Raincode_DistributedDev.txt";
 
             using (FileStream fs = File.OpenRead(path))
             {
@@ -19,9 +20,10 @@ namespace Remote_Development_and_Compilation
                 UTF8Encoding temp = new UTF8Encoding(true);
                 while (fs.Read(buffer, 0, buffer.Length) > 0)
                 {
-                    Console.WriteLine(temp.GetString(buffer));
+                    Debug.WriteLine(temp.GetString(buffer));
                 }
             }
+            return path;
         }
     }
 }
