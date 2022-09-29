@@ -12,7 +12,7 @@ namespace Remote_Development_and_Compilation
     {
         public static string OpenFile()
         {
-            string path = @"Z:\Documents\Remote_Development_and_Compilation\Test Files\TFE23-254-Raincode_DistributedDev.txt";
+            string path = @"C:\Users\test\Documents\PlayMusic\app\src\main\java\com\ishim\playmusic\MainActivity.kt";
 
             using (FileStream fs = File.OpenRead(path))
             {

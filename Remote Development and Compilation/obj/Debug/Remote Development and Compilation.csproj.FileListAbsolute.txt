@@ -22,3 +22,26 @@
 \\Mac\Home\Documents\Remote_Development_and_Compilation\Remote Development and Compilation\obj\Debug\extension.vsixmanifest
 \\Mac\Home\Documents\Remote_Development_and_Compilation\Remote Development and Compilation\obj\Debug\files.json
 \\Mac\Home\Documents\Remote_Development_and_Compilation\Remote Development and Compilation\obj\Debug\createTemplateManifests.cache
+C:\Users\test\Documents\Remote_Development_and_Compilation\Remote Development and Compilation\bin\Debug\Remote Development and Compilation.dll
+C:\Users\test\Documents\Remote_Development_and_Compilation\Remote Development and Compilation\bin\Debug\Remote Development and Compilation.pdb
+C:\Users\test\Documents\Remote_Development_and_Compilation\Remote Development and Compilation\bin\Debug\Remote Development and Compilation.pkgdef
+C:\Users\test\Documents\Remote_Development_and_Compilation\Remote Development and Compilation\bin\Debug\Remote Development and Compilation.vsix
+C:\Users\test\Documents\Remote_Development_and_Compilation\Remote Development and Compilation\bin\Debug\extension.vsixmanifest
+C:\Users\test\Documents\Remote_Development_and_Compilation\Remote Development and Compilation\obj\Debug\Remote Development and Compilation.csproj.AssemblyReference.cache
+C:\Users\test\Documents\Remote_Development_and_Compilation\Remote Development and Compilation\obj\Debug\_EmptyResource.resources
+C:\Users\test\Documents\Remote_Development_and_Compilation\Remote Development and Compilation\obj\Debug\Remote Development and Compilation.csproj.GenerateResource.cache
+C:\Users\test\Documents\Remote_Development_and_Compilation\Remote Development and Compilation\obj\Debug\Remote_Development_and_CompilationPackage.cto
+C:\Users\test\Documents\Remote_Development_and_Compilation\Remote Development and Compilation\obj\Debug\VSCT.read.1.tlog
+C:\Users\test\Documents\Remote_Development_and_Compilation\Remote Development and Compilation\obj\Debug\VSCT.write.1.tlog
+C:\Users\test\Documents\Remote_Development_and_Compilation\Remote Development and Compilation\obj\Debug\resources.json
+C:\Users\test\Documents\Remote_Development_and_Compilation\Remote Development and Compilation\obj\Debug\ctoFiles.json
+C:\Users\test\Documents\Remote_Development_and_Compilation\Remote Development and Compilation\obj\Debug\mergeCto.cache
+C:\Users\test\Documents\Remote_Development_and_Compilation\Remote Development and Compilation\obj\Debug\Remote Development and Compilation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\test\Documents\Remote_Development_and_Compilation\Remote Development and Compilation\obj\Debug\Remote Development and Compilation.csproj.CoreCompileInputs.cache
+C:\Users\test\Documents\Remote_Development_and_Compilation\Remote Development and Compilation\obj\Debug\Remote Development and Compilation.dll
+C:\Users\test\Documents\Remote_Development_and_Compilation\Remote Development and Compilation\obj\Debug\Remote Development and Compilation.pdb
+C:\Users\test\Documents\Remote_Development_and_Compilation\Remote Development and Compilation\obj\Debug\Remote Development and Compilation.pkgdef
+C:\Users\test\Documents\Remote_Development_and_Compilation\Remote Development and Compilation\obj\Debug\Remote Development and Compilation.latest.pkgdef
+C:\Users\test\Documents\Remote_Development_and_Compilation\Remote Development and Compilation\obj\Debug\extension.vsixmanifest
+C:\Users\test\Documents\Remote_Development_and_Compilation\Remote Development and Compilation\obj\Debug\files.json
+C:\Users\test\Documents\Remote_Development_and_Compilation\Remote Development and Compilation\obj\Debug\createTemplateManifests.cache
