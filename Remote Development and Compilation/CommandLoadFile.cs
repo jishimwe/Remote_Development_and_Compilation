@@ -95,12 +95,12 @@ namespace Remote_Development_and_Compilation
             // Opening file and writing it to console
             Console.WriteLine("Ok google.");
 
-            string res = FileSync.OpenFile();
+            //string res = FileSync.OpenFile();
 
             // Show a message box to prove we were here
             VsShellUtilities.ShowMessageBox(
                 this.package,
-                res,
+                message,
                 title,
                 OLEMSGICON.OLEMSGICON_INFO,
                 OLEMSGBUTTON.OLEMSGBUTTON_OK,

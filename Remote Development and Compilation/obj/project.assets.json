@@ -123,13 +123,16 @@
         "dependencies": {
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
         "compile": {
           "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net461/_._": {
+          "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {
             "related": ".xml"
           }
         }
@@ -1673,13 +1676,16 @@
       },
       "System.Runtime.CompilerServices.Unsafe/5.0.0": {
         "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
         "compile": {
           "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net45/_._": {
+          "lib/net45/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
           }
         }
@@ -1830,13 +1836,16 @@
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "4.5.3"
         },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
         "compile": {
           "lib/net461/System.Threading.Tasks.Extensions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net461/_._": {
+          "lib/net461/System.Threading.Tasks.Extensions.dll": {
             "related": ".xml"
           }
         }
@@ -2140,13 +2149,16 @@
         "dependencies": {
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
         "compile": {
           "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net461/_._": {
+          "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {
             "related": ".xml"
           }
         }
@@ -3714,13 +3726,16 @@
       },
       "System.Runtime.CompilerServices.Unsafe/5.0.0": {
         "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
         "compile": {
           "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net45/_._": {
+          "lib/net45/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
           }
         }
@@ -3835,13 +3850,16 @@
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "4.5.3"
         },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
         "compile": {
           "lib/net461/System.Threading.Tasks.Extensions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net461/_._": {
+          "lib/net461/System.Threading.Tasks.Extensions.dll": {
             "related": ".xml"
           }
         }
@@ -4145,13 +4163,16 @@
         "dependencies": {
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
         "compile": {
           "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net461/_._": {
+          "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {
             "related": ".xml"
           }
         }
@@ -5719,13 +5740,16 @@
       },
       "System.Runtime.CompilerServices.Unsafe/5.0.0": {
         "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
         "compile": {
           "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net45/_._": {
+          "lib/net45/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
           }
         }
@@ -5840,13 +5864,16 @@
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "4.5.3"
         },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
         "compile": {
           "lib/net461/System.Threading.Tasks.Extensions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net461/_._": {
+          "lib/net461/System.Threading.Tasks.Extensions.dll": {
             "related": ".xml"
           }
         }
@@ -6150,13 +6177,16 @@
         "dependencies": {
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
         "compile": {
           "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net461/_._": {
+          "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll": {
             "related": ".xml"
           }
         }
@@ -7724,13 +7754,16 @@
       },
       "System.Runtime.CompilerServices.Unsafe/5.0.0": {
         "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
         "compile": {
           "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net45/_._": {
+          "lib/net45/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
           }
         }
@@ -7845,13 +7878,16 @@
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "4.5.3"
         },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
         "compile": {
           "lib/net461/System.Threading.Tasks.Extensions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net461/_._": {
+          "lib/net461/System.Threading.Tasks.Extensions.dll": {
             "related": ".xml"
           }
         }
@@ -11506,29 +11542,30 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.7.2": [
+      "Microsoft.Bcl.AsyncInterfaces >= 5.0.0",
       "Microsoft.VSSDK.BuildTools >= 17.3.2093",
       "Microsoft.VisualStudio.SDK >= 17.0.32112.339"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\test\\.nuget\\packages\\": {},
+    "C:\\Users\\ishim\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\test\\Documents\\Remote_Development_and_Compilation\\Remote Development and Compilation\\Remote Development and Compilation.csproj",
+      "projectUniqueName": "C:\\Users\\ishim\\source\\repos\\Remote Development and Compilation\\Remote Development and Compilation\\Remote Development and Compilation.csproj",
       "projectName": "Remote Development and Compilation",
-      "projectPath": "C:\\Users\\test\\Documents\\Remote_Development_and_Compilation\\Remote Development and Compilation\\Remote Development and Compilation.csproj",
-      "packagesPath": "C:\\Users\\test\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\test\\Documents\\Remote_Development_and_Compilation\\Remote Development and Compilation\\obj\\",
+      "projectPath": "C:\\Users\\ishim\\source\\repos\\Remote Development and Compilation\\Remote Development and Compilation\\Remote Development and Compilation.csproj",
+      "packagesPath": "C:\\Users\\ishim\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ishim\\source\\repos\\Remote Development and Compilation\\Remote Development and Compilation\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\test\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ishim\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -11548,6 +11585,10 @@
     "frameworks": {
       "net472": {
         "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
           "Microsoft.VSSDK.BuildTools": {
             "target": "Package",
             "version": "[17.3.2093, )"

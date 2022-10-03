@@ -1,16 +1,11 @@
-﻿using Microsoft.VisualStudio;
-using Microsoft.VisualStudio.OLE.Interop;
-using Microsoft.VisualStudio.Shell;
-using Microsoft.VisualStudio.Shell.Interop;
-using Microsoft.Win32;
+﻿using Microsoft.VisualStudio.Shell;
+using Microsoft.VisualStudio.Project;
+using Remote_Development_and_Compilation.Templates.Projects.RDRProject;
+using stdole;
 using System;
-using System.ComponentModel.Design;
-using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
 using System.Runtime.InteropServices;
 using System.Threading;
-using System.Threading.Tasks;
 using Task = System.Threading.Tasks.Task;
 
 namespace Remote_Development_and_Compilation
@@ -33,6 +28,7 @@ namespace Remote_Development_and_Compilation
     /// </para>
     /// </remarks>
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
+    [ProvideProjectFactory( typeof(RDRProjectFactory),  "Redirect Project",     "Redirect Project Files (*.rdrproj);*.rdrproj", "rdrproj", "rdrproj", @"Templates\Projects\RDRProject",     LanguageVsTemplate = "RDRProject")]
     [Guid(RDRProjectPackage.PackageGuidString)]
     [SuppressMessage("StyleCop.CSharp.DocumentationRules", "SA1650:ElementDocumentationMustBeSpelledCorrectly", Justification = "pkgdef, VS and vsixmanifest are valid VS terms")]
     public sealed class RDRProjectPackage : AsyncPackage
@@ -41,6 +37,11 @@ namespace Remote_Development_and_Compilation
         /// RDRProjectPackage GUID string.
         /// </summary>
         public const string PackageGuidString = "c48a4835-d368-46a0-af80-a65c44b42cb5";
+
+        public const string RDRProjectPackageString = "356AA486-2279-4874-9DA9-16C51B7ECDC0";
+        public const string RDRProjectFactoryString = "70322461-1E3B-4E3A-94B4-DABB64AA792E";
+
+        public static readonly Guid guidRDRProjectyFactory = new Guid(RDRProjectFactoryString);
 
         /// <summary>
         /// Initializes a new instance of the <see cref="RDRProjectPackage"/> class.
@@ -67,6 +68,9 @@ namespace Remote_Development_and_Compilation
             // When initialized asynchronously, the current thread may be a background thread at this point.
             // Do any initialization that requires the UI thread after switching to the UI thread.
             await this.JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);
+
+            this.RegisterProjectFactory(new RDRProjectFactory();
+
         }
 
         #endregion
