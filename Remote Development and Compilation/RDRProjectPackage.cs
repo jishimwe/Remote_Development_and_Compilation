@@ -1,5 +1,5 @@
 ﻿using Microsoft.VisualStudio.Shell;
-using Microsoft.VisualStudio.Project;
+using Microsoft.VisualStudio.Package
 using Remote_Development_and_Compilation.Templates.Projects.RDRProject;
 using stdole;
 using System;
@@ -69,7 +69,7 @@ namespace Remote_Development_and_Compilation
             // Do any initialization that requires the UI thread after switching to the UI thread.
             await this.JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);
 
-            this.RegisterProjectFactory(new RDRProjectFactory();
+            this.RegisterProjectFactory(new RDRProjectFactory(this));
 
         }
 
