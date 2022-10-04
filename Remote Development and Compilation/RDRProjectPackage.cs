@@ -7,6 +7,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Runtime.InteropServices;
 using System.Threading;
 using Task = System.Threading.Tasks.Task;
+using IOleServiceProvider = Microsoft.VisualStudio.OLE.Interop.IServiceProvider;
 
 namespace Remote_Development_and_Compilation
 {
@@ -60,11 +61,6 @@ namespace Remote_Development_and_Compilation
             // not sited yet inside Visual Studio environment. The place to do all the other
             // initialization is the Initialize method.
         }
-
-/*        protected override object PreCreateForOuter(object outerProject)
-        {
-            return null;
-        }*/
 
         #region Package Members
 
