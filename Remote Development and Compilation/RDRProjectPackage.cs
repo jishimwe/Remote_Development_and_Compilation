@@ -1,5 +1,5 @@
 ﻿using Microsoft.VisualStudio.Shell;
-using Microsoft.VisualStudio.Package
+using Microsoft.VisualStudio.Package;
 using Remote_Development_and_Compilation.Templates.Projects.RDRProject;
 using stdole;
 using System;
@@ -43,6 +43,13 @@ namespace Remote_Development_and_Compilation
 
         public static readonly Guid guidRDRProjectyFactory = new Guid(RDRProjectFactoryString);
 
+        private RDRProjectPackage rdrProjectPackage;
+
+        public RDRProjectPackage(RDRProjectPackage rdrProjectPackage)
+        {
+            this.rdrProjectPackage = rdrProjectPackage;
+        }
+
         /// <summary>
         /// Initializes a new instance of the <see cref="RDRProjectPackage"/> class.
         /// </summary>
@@ -53,6 +60,11 @@ namespace Remote_Development_and_Compilation
             // not sited yet inside Visual Studio environment. The place to do all the other
             // initialization is the Initialize method.
         }
+
+/*        protected override object PreCreateForOuter(object outerProject)
+        {
+            return null;
+        }*/
 
         #region Package Members
 
